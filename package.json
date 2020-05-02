@@ -6,8 +6,8 @@
   "description": "Diablo II d2s format command line tool.",
   "homepage": "https://github.com/Vincent0700/d2s-cli",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Vincent0700/d2s-cli"
+    "type": "git",
+    "url": "https://github.com/Vincent0700/d2s-cli"
   },
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,9 @@
   "bin": {
     "d2s": "./dist/d2s-cli.min.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "webpack --config=./build/webpack.config.js --watch",
     "build": "webpack --config=./build/webpack.config.js && chmod +x dist/d2s-cli.min.js",
