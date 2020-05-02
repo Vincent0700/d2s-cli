@@ -43,6 +43,8 @@ $ d2s reset
 
 Or you can specify a d2s file like: 
 
+或者你可以像这样指定某个 `d2s` 文件：
+
 ```bash
 $ d2s reset "/Applications/Diablo II/Save/LeBlanc.d2s"
 ```
