@@ -24,7 +24,6 @@
   "scripts": {
     "dev": "webpack --config=./build/webpack.config.js --watch",
     "build": "webpack --config=./build/webpack.config.js && chmod +x dist/d2s-cli.min.js",
-    "publish": "yarn build && npm publish", 
     "lint": "eslint --fix . && prettier --write ./**/*.{md,html,json,css,scss,less}"
   },
   "devDependencies": {
