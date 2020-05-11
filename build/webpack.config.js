@@ -33,5 +33,11 @@ module.exports = {
       [{ path: path.resolve(__dirname, '../dist/d2s-cli.min.js'), mode: 755 }]
     ),
     // new BundleAnalyzerPlugin()
+  ],
+  externals: [
+    'chalk',
+    'commander',
+    'walkdir',
+    'inquirer'
   ]
 };

@@ -5,7 +5,6 @@ import { resetStatsAndSkills } from './utils';
 
 program.version(pkg.version);
 program.description(pkg.description);
-
 program
   .command('reset [file]')
   .description('Reset stats & skills')
