@@ -21,16 +21,7 @@ module.exports = {
     rules: [
       {
         test: /\.(ts|js)x?$/,
-        use: [
-          { loader:'babel-loader' },
-          {
-            loader:'ts-loader',
-            options: {
-              transpileOnly: true,
-              configFile: path.resolve(__dirname, '../tsconfig.json')
-            }
-          }
-        ],
+        use: ['babel-loader'],
         exclude: '/node_modules/'
       }
     ]
@@ -41,6 +32,6 @@ module.exports = {
     new ChmodWebpackPlugin(
       [{ path: path.resolve(__dirname, '../dist/d2s-cli.min.js'), mode: 755 }]
     ),
-    new BundleAnalyzerPlugin()
+    // new BundleAnalyzerPlugin()
   ]
 };
