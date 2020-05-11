@@ -1,6 +1,6 @@
 {
   "name": "d2s-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "vincent0700 (https://vincentstudio.info)",
   "email": "wang.yuanqiu007@gmail.com",
   "description": "Diablo II d2s format command line tool.",
@@ -58,7 +58,7 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
-    "walkdir": "^0.4.1",
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "walkdir": "^0.4.1"
   }
 }
